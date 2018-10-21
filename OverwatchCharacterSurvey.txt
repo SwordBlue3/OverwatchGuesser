@@ -1,0 +1,240 @@
+#overwatch charecter survey
+print('welcome to this progam, I will accurately guess what overwatch character you think of in a short questionnaire.')
+a = "bastion"
+b = "doomfist"
+c = "genji"
+d = "hanzo"
+e = "junkrat"
+f = "McCree"
+g = "mei"
+h = "pharah"
+i = "reaper"
+j = "soldier: 76"
+k = "sombra"
+l = "symmetra"
+m = "torbjorn"
+n = "tracer"
+o = "widowmaker"
+p = "D.VA"
+q = "orisa"
+r = "reinhardt"
+s = "roadhog"
+t = "winston"
+u = "wrecking ball"
+v = "zarya"
+w = "ana"
+A = "brigitte"
+B = "lucio"
+C = "mercy"
+D = "moira"
+E = "zenyatta"
+x = input("type your name ")
+print("hello", x)
+y = input("Is your hero a Damage hero?")
+if y == "yes":
+  print ("ahh i have narrowed the seach to:",a,b,c,d,f,g,h,i,j,k,l,m,n,o)
+  #start damage
+  F = input("Does your hero drop his/her guns when they reload?")
+  if F == "yes":
+    print ("Your character is Reaper!")
+    exit(0)
+    #done with reaper
+
+  elif F == "no":
+    G = input("Can your character transform into a tank?")
+    if G == "yes":
+      print ("Your character is Bastion!")
+      exit(0)
+      #Bastion done
+      
+    elif G == "no":
+      H = input("does your hero use his rocket gauntlet to battle?")
+      if H == "yes":
+        print ("Your character is Doomfist!")
+        exit(0)
+        #Doomfist done
+
+      elif H == "no":
+        I = input("does your hero use shurikens in battle?" )
+        if I == "yes":
+          print ("Your character is Genji!")
+          exit(0)
+          #Genji done
+        elif I == "no":
+          #hanzo
+          bd = input("does your hero have sharp eyes and a bow & arrow? ")
+          if bd == "yes":
+            print("your hero is hanzo!")
+            exit(0)
+            #junkrat
+          elif bd == "no":
+            bf =  input("does yor hero have a grenade launcher? ")
+            if bf == "yes":
+              print("your hero is junkrat!")
+              exit(0)
+              #Mcree
+            elif bf == "no":
+
+              bg = input("is your hero a cowboy? ")
+              if bg == "yes":
+                print("your hero is Mcree!")
+                exit(0)
+                #Mei
+              elif bg == "no":
+                bh = input("does your hero use an snowball launcher? ")
+                if bh == "yes":
+                  print("your hero is Mei!")
+                  exit(0)
+                  #pharah
+                elif bh == "no":
+
+                  bi = input("does your hero fly around with a rocket gun? ")
+                  if bi == "yes":
+                      print("Your hero is Pharah? ")
+                      exit(0)
+                      #soldier
+                  elif bi == "no":
+                    bj = input("does you hero have an aimbot? ")
+                    if bj == "yes":
+                      print("your hero is soldier: 76!")
+                      exit(0)
+                    elif bj == "no":
+                      bk = input ("Can your character hack and become invisible?") 
+                      if bk == "yes":
+                        print ("Your character is Sombra!")
+                        exit(0)
+                      elif bk == "no":
+                        bl = input ("Does your character use laser turrets?")  
+                        if bl == "yes":
+                          print ("Your character is Symmetra!")
+                          exit(0) 
+                        elif bl == "no": 
+                          bm = input ("Is your character a dwarf with one arm?")
+                          if bm == "yes":
+                            print ("Your character is Torbjorn!")
+                            exit(0)
+                          elif bm =="no":
+                            bn = input ("Can your character travel through time?")
+                            if bn == "yes":
+                              print ("Your character is Tracer!")
+                              exit(0)
+                            elif bn == "no":
+                              bo = input ("Is your character a sniper who can see through walls?")
+                              if bo == "yes":
+                                print ("Your character is Widowmaker!")
+                              elif bo == "no":
+                                print ("That's impossible! Start Over")
+                                exit(0)
+#overwatch charecter survey Widowmaker")
+
+elif y == "no":
+  print("awww shucks i didnt get anything from that ")
+  #moving to support
+  z = input("is your character a support?")
+  if z == "yes":
+    print("nice my first correct guess. I have narrowed the seach to:",w,A,B,C,D,E)
+
+    G = input("Does your character use a sniper?") 
+    if G == "yes":
+      print("Your character is Ana!")
+      exit(0)
+    elif G == "no":
+      H = input("Does your character have a long chained hammer?")
+      if H == "yes":
+        print ("Your character is Brigitte!")
+        exit(0)
+      #brigitte done
+
+      elif H == "no":
+        I = input("Does your character run on walls?")
+        if I == "yes":
+          print ("Your character is Lucio!")
+          exit(0)
+          #lucio done
+
+        elif I == "no":
+          J = input("Can your character revive teammates?")
+          if J == "yes":
+            print ("Your character is Mercy!")
+            exit(0)
+            #Mercy done
+
+          elif J == "no":
+            K = input("Can your character shoot damaging spheres?")
+            if K == "yes":
+              print ("Your character is Moira!")
+              exit(0)
+              #Moira done
+
+            elif K == "no":
+              L = input("Does your character float in the air?")
+              if L == "yes":
+                print ("Your character is Zenyatta!")
+                exit(0)
+                #Zenyatta done
+              elif L == "no":
+                print ("That's impossible! Start Over")
+                exit(0)
+
+#Support done
+  elif z == "no":
+    print("awww shucks i didnt get anything from that ")
+    H = input("Is your character a tank?")
+    if H == "yes":
+      #tanks start here
+
+      print("ahh i have narrowed the seach to:",p,q,r,s,t,u,v)
+      I = input ("Does your character selfdestruct?")
+      if I == "yes":
+        print ("Your character is D.Va!")
+        exit(0)
+      elif I == "no":
+      #orisa question
+
+        J = input("Is your character a robot that has a stationary shield?")
+        if J == "yes":
+          print ("Your character is Orisa")
+          exit(0)
+        elif J == "no":
+          K = input("Does your character use a short range hammer?")
+          if K == "yes":
+            print ("Your character is Reinhardt!")
+            exit(0)
+            #reinhardt done
+
+          elif K == "no":
+            L = input("Does your character use a hook and shotgun?")
+            if L == "yes":
+              print ("Your character is Roadhog!")
+              exit (0)
+              #roadhog done
+
+            elif L == "no":
+              M = input("Is your character a monkey with a tesla cannon?")
+              if M == "yes":
+                print ("Your character is Winston!")
+                exit(0) 
+                #winston done
+
+              elif M == "no":
+                N = input("Is your character a hamster with a mechanical suit?")
+                if N == "yes":
+                  print ("Your character is Wrecking Ball!")
+                  exit(0)
+                  #WreckingBall done
+                
+                elif N == "no":
+                  O = input("Does your character use a laser beam? ")
+                  if O == "yes":
+                    print ("Your character is Zarya!")
+                    exit(0)
+                    #Zarya done
+
+                  elif O == "no":
+                    print("That's impossible! Start Over")
+                    exit(0)
+                    #tanks end here
+    if H == "no":
+      print("That's impossible! Start Over")
+      exit(0)
+      #chose no hero type, not a tank
